@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone",
+      "program": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone/build/Debug/outDebug"
+    }
+  ]
+}
