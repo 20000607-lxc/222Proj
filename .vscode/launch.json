@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: Module",
+      "type": "python",
+      "request": "launch",
+      "module": "jain",
+      "justMyCode": true
+    },
+    {
       "name": "scratch_tcp_test",
       "type": "lldb",
       "request": "launch",
@@ -10,6 +17,13 @@
       ],
       "cwd": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone",
       "program": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone/ns-3.33/build/scratch/tcp-test"
+    },
+    {
+      "name": "tcp-test3",
+      "type": "lldb",
+      "request": "launch",
+      "cwd": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone",
+      "program": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone/ns-3.33/build/scratch/tcp-test3"
     },
     {
       "name": "scratch_tcp_test2",
@@ -25,9 +39,7 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
-      "args": [
-        
-      ],
+      "args": [],
       "cwd": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone",
       "program": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone/build/Debug/outDebug"
     }
