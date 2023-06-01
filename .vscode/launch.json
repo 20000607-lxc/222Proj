@@ -2,19 +2,19 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Module",
+      "name": "Python: Current File",
       "type": "python",
       "request": "launch",
-      "module": "jain",
+      "program": "${file}",
+      "console": "integratedTerminal",
       "justMyCode": true
     },
+   
     {
       "name": "scratch_tcp_test",
       "type": "lldb",
       "request": "launch",
-      "args": [
-        "--cc=copa --folder=copa"
-      ],
+      "args": ["--cc=copa --folder=copa"],
       "cwd": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone",
       "program": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone/ns-3.33/build/scratch/tcp-test"
     },
@@ -29,9 +29,7 @@
       "name": "scratch_tcp_test2",
       "type": "lldb",
       "request": "launch",
-      "args": [
-        "--cc=copa --folder=copa"
-      ],
+      "args": ["--cc=copa --folder=copa"],
       "cwd": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone",
       "program": "/Users/lixuechun/Desktop/222proj.nosync/ns-3-allinone/ns-3.33/build/scratch/tcp-test2"
     },
