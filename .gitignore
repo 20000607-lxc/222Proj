@@ -1,8 +1,14 @@
 .config
 bake
-ns-3*
 netanim*
 pybindgen*
+ns-3.33/.waf*
+ns-3.33/bindings
+ns-3.33/build
+ns-3.33/examples
+ns-3.33/__pycache__
+ns-3.33/doc
+
 
 *.pyc
 *.diff
